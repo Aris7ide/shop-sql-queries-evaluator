@@ -50,13 +50,13 @@ SELECT nombre FROM fabricante LIMIT 5;
 SELECT nombre FROM fabricante LIMIT 2 OFFSET 3;
 
 -- 18. Llista el nom i el preu del producte més barat. (Utilitza solament les clàusules ORDER BY i LIMIT).
-SELECT nombre, precio FROM product ORDER BY precio ASC LIMIT 1;
+SELECT nombre, precio FROM producto ORDER BY precio ASC LIMIT 1;
 
 -- 19. Llista el nom i el preu del producte més car. (Utilitza solament les clàusules ORDER BY i LIMIT).
-SELECT nombre, precio FROM product ORDER BY precio DESC LIMIT 1;
+SELECT nombre, precio FROM producto ORDER BY precio DESC LIMIT 1;
 
 -- 20. Llista el nom de tots els productes del fabricant el codi de fabricant del qual és igual a 2.
-SELECT nombre FROM product p WHERE p.codigo_fabricante = 2;
+SELECT nombre FROM producto p WHERE p.codigo_fabricante = 2;
 
 -- 21. Retorna una llista amb el nom del producte, preu i nom de fabricant (nombre del fabricante) de tots els productes de la base de dades.
 SELECT nombre, precio, f.nombre FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo;
@@ -68,7 +68,7 @@ SELECT nombre, precio, f.nombre FROM producto p JOIN fabricante f ON p.codigo_fa
 SELECT codigo, nombre, codigo_fabricante AS 'codigo fabricante', f.nombre AS 'nombre fabricante' FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo;
 
 -- 24. Retorna el nom, el preu i el nom del fabricant (fabricante), del producte més barat.
-
+SELECT nombre, precio, f.nombre AS 'fabricante' FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo ORDER BY precio DESC LIMIT 1;
 
 -- 25. Retorna el nom del producte, el preu i el nom del seu fabricant (fabricante), del producte més car.
 
