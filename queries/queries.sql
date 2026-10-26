@@ -1,8 +1,8 @@
 -- 1. Llista el nom de tots els productes que hi ha en la taula producto.
-SELECT name FROM producto;
+SELECT nombre FROM producto;
 
 -- 2. Llista els noms i els preus de tots els productes de la taula producto.
-SELECT * FROM producto p WHERE p.nombre, p.precio;
+SELECT nombre, precio FROM producto;
 
 -- 3. Llista totes les columnes de la taula producto.
 
