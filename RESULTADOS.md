@@ -2,25 +2,25 @@
 
 
 ## 📈 Resumen
-✅ 5 correctas de 9 queries
+✅ 8 correctas de 13 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.50 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.24 ms
+⏱ Tiempo: 0.33 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.29 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -30,14 +30,17 @@
 
 ## ✅ Query 4: Correcto
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.31 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
-## ❌ Query 5: Error
-- **Descripción**: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'del producte, precio AS euro, ROUND(precio * 1.1) AS dòlars FROM producto' at line 2
+## ✅ Query 5: Correcto
 
+⏱ Tiempo: 0.34 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
 
 ## ❌ Query 6: Incorrecto
 ```diff
@@ -51,7 +54,7 @@
  DISCO SSD 1 TB | 150.99
 ```
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.32 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -68,18 +71,53 @@
  disco ssd 1 tb | 150.99
 ```
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.31 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 8: Correcto
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.30 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
-## ❌ Query 9: Error
+## ❌ Query 9: Incorrecto
+```diff
+--- 
++++ 
+@@ -1,4 +1,4 @@
+-nombre | precio
++nombre | ROUND(precio)
+ Disco duro SATA3 1TB | 87.00
+ Memoria RAM DDR4 8GB | 120.00
+ Disco SSD 1 TB | 151.00
+```
+
+⏱ Tiempo: 0.28 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ❌ Query 10: Error
+- **Descripción**: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS precio_truncado FROM producto' at line 2
+
+
+## ✅ Query 11: Correcto
+
+⏱ Tiempo: 0.26 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
+
+## ✅ Query 12: Correcto
+
+⏱ Tiempo: 0.23 ms
+✅ Se usó índice(s) en la consulta: codigo_fabricante
+
+---
+
+## ❌ Query 13: Error
 - **Descripción**: 'NoneType' object is not iterable
 
