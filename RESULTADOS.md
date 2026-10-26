@@ -2,15 +2,21 @@
 
 
 ## 📈 Resumen
-✅ 0 correctas de 3 queries
+✅ 2 correctas de 3 queries
 
-## ❌ Query 1: Error
-- **Descripción**: 1054 (42S22): Unknown column 'name' in 'field list'
+## ✅ Query 1: Correcto
 
+⏱ Tiempo: 0.37 ms
+🔍 No se usó ningún índice en esta consulta.
 
-## ❌ Query 2: Error
-- **Descripción**: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', p.precio' at line 2
+---
 
+## ✅ Query 2: Correcto
+
+⏱ Tiempo: 0.31 ms
+🔍 No se usó ningún índice en esta consulta.
+
+---
 
 ## ❌ Query 3: Error
 - **Descripción**: 'NoneType' object is not iterable
