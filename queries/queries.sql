@@ -95,7 +95,7 @@ SELECT p.nombre, precio, f.nombre AS 'fabricante' FROM producto p JOIN fabricant
 SELECT p.nombre, precio, f.nombre AS 'fabricante' FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE precio >= 180 ORDER BY precio DESC, p.nombre ASC;
 
 -- 33. Retorna un llistat amb el codi i el nom de fabricant (fabricante), solament d'aquells fabricants que tenen productes associats en la base de dades.
-
+SELECT f.codigo, f.nombre AS 'fabricante' FROM fabricante f JOIN producto p ON f.codigo = p.codigo_fabricante;
 
 -- 34. Retorna un llistat de tots els fabricants que existeixen en la base de dades, juntament amb els productes que té cadascun d'ells. Inclou també els fabricants que no tenen cap producte. Mostra el nom del fabricant (fabricante) i el nom del producte (producto).
 
