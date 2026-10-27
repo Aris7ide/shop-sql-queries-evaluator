@@ -2,25 +2,25 @@
 
 
 ## 📈 Resumen
-✅ 26 correctas de 34 queries
+✅ 27 correctas de 35 queries
 
 ## ✅ Query 1: Correcto
 
-⏱ Tiempo: 0.32 ms
+⏱ Tiempo: 0.27 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 2: Correcto
 
-⏱ Tiempo: 0.24 ms
+⏱ Tiempo: 0.20 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 3: Correcto
 
-⏱ Tiempo: 0.20 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 🚨 **Problemas detectados:**
@@ -30,42 +30,42 @@
 
 ## ✅ Query 4: Correcto
 
-⏱ Tiempo: 0.20 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 5: Correcto
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 6: Correcto
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 7: Correcto
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 8: Correcto
 
-⏱ Tiempo: 0.29 ms
+⏱ Tiempo: 0.21 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 9: Correcto
 
-⏱ Tiempo: 0.20 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -82,42 +82,42 @@
  Disco SSD 1 TB | 150.00
 ```
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 11: Correcto
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 12: Correcto
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.19 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante
 
 ---
 
 ## ✅ Query 13: Correcto
 
-⏱ Tiempo: 0.17 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 14: Correcto
 
-⏱ Tiempo: 0.15 ms
+⏱ Tiempo: 0.19 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 15: Correcto
 
-⏱ Tiempo: 0.19 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -141,7 +141,7 @@
 +Seagate
 ```
 
-⏱ Tiempo: 0.16 ms
+⏱ Tiempo: 0.17 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -159,21 +159,21 @@
 +Seagate
 ```
 
-⏱ Tiempo: 0.15 ms
+⏱ Tiempo: 0.17 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 18: Correcto
 
-⏱ Tiempo: 0.16 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
 
 ## ✅ Query 19: Correcto
 
-⏱ Tiempo: 0.15 ms
+⏱ Tiempo: 0.18 ms
 🔍 No se usó ningún índice en esta consulta.
 
 ---
@@ -187,21 +187,21 @@
 
 ## ✅ Query 21: Correcto
 
-⏱ Tiempo: 0.20 ms
+⏱ Tiempo: 0.22 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
 ## ✅ Query 22: Correcto
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.21 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
 ## ✅ Query 23: Correcto
 
-⏱ Tiempo: 0.20 ms
+⏱ Tiempo: 0.21 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -216,7 +216,7 @@
  Impresora HP Deskjet 3720 | 59.99 | Hewlett-Packard
 ```
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.20 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -230,21 +230,21 @@
 
 ## ✅ Query 26: Correcto
 
-⏱ Tiempo: 0.22 ms
+⏱ Tiempo: 0.20 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
 ## ✅ Query 27: Correcto
 
-⏱ Tiempo: 0.21 ms
+⏱ Tiempo: 0.22 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
 ## ✅ Query 28: Correcto
 
-⏱ Tiempo: 0.24 ms
+⏱ Tiempo: 0.21 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -291,14 +291,14 @@
  Impresora HP Laserjet Pro M26nw | 180.00 | Hewlett-Packard
 ```
 
-⏱ Tiempo: 0.20 ms
+⏱ Tiempo: 0.22 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
 ## ✅ Query 32: Correcto
 
-⏱ Tiempo: 0.23 ms
+⏱ Tiempo: 0.22 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
@@ -307,27 +307,26 @@
 ```diff
 --- 
 +++ 
-@@ -1,8 +1,12 @@
+@@ -1,4 +1,4 @@
 -codigo | nombre
 +codigo | fabricante
-+1.00 | Asus
  1.00 | Asus
  2.00 | Lenovo
-+2.00 | Lenovo
-+3.00 | Hewlett-Packard
  3.00 | Hewlett-Packard
- 4.00 | Samsung
- 5.00 | Seagate
- 6.00 | Crucial
-+6.00 | Crucial
- 7.00 | Gigabyte
 ```
 
-⏱ Tiempo: 0.20 ms
+⏱ Tiempo: 0.23 ms
 ✅ Se usó índice(s) en la consulta: codigo_fabricante, PRIMARY
 
 ---
 
-## ❌ Query 34: Error
+## ✅ Query 34: Correcto
+
+⏱ Tiempo: 0.22 ms
+✅ Se usó índice(s) en la consulta: codigo_fabricante
+
+---
+
+## ❌ Query 35: Error
 - **Descripción**: 'NoneType' object is not iterable
 
