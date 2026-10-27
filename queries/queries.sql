@@ -110,10 +110,10 @@ SELECT * FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHE
 SELECT * FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE precio = (SELECT p.precio FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE f.nombre = 'Lenovo' ORDER BY precio DESC LIMIT 1);
 
 -- 38. Llista el nom del producte més car del fabricant Lenovo.
-
+SELECT p.nombre FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE f.nombre = 'Lenovo' ORDER BY precio DESC LIMIT 1;
 
 -- 39. Llista el nom del producte més barat del fabricant Hewlett-Packard.
-
+SELECT p.nombre FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE f.nombre = 'Hewlett-Packard' ORDER BY precio ASC LIMIT 1;
 
 -- 40. Retorna tots els productes de la base de dades que tenen un preu major o igual al producte més car del fabricant Lenovo.
 
