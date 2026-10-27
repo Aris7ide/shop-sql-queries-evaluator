@@ -104,10 +104,10 @@ SELECT f.nombre AS 'fabricante', p.nombre AS 'producto' FROM fabricante f LEFT J
 SELECT f.nombre AS 'fabricante' FROM fabricante f LEFT JOIN producto p ON f.codigo = p.codigo_fabricante WHERE p.codigo_fabricante IS NULL;
 
 -- 36. Retorna tots els productes del fabricant Lenovo. (Sense utilitzar INNER JOIN).
-SELECT * FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE f.nombre = 'Lenovo';
+SELECT p* FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE f.nombre = 'Lenovo';
 
 -- 37. Retorna totes les dades dels productes que tenen el mateix preu que el producte més car del fabricant Lenovo. (Sense usar INNER JOIN).
-SELECT * FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE precio = (SELECT p.precio FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE f.nombre = 'Lenovo' ORDER BY precio DESC LIMIT 1);
+SELECT p* FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE precio = (SELECT p.precio FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE f.nombre = 'Lenovo' ORDER BY precio DESC LIMIT 1);
 
 -- 38. Llista el nom del producte més car del fabricant Lenovo.
 SELECT p.nombre FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE f.nombre = 'Lenovo' ORDER BY precio DESC LIMIT 1;
@@ -116,7 +116,7 @@ SELECT p.nombre FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.cod
 SELECT p.nombre FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE f.nombre = 'Hewlett-Packard' ORDER BY precio ASC LIMIT 1;
 
 -- 40. Retorna tots els productes de la base de dades que tenen un preu major o igual al producte més car del fabricant Lenovo.
-
+SELECT p* FROM producto p JOIN fabricante f ON p.codigo_fabricante = p.codigo WHERE precio >= (SELECT precio FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = 'Lenovo' ORDER BY price DESC LIMIT 1);
 
 -- 41. Llista tots els productes del fabricant Asus que tenen un preu superior al preu mitjà de tots els seus productes.
 
